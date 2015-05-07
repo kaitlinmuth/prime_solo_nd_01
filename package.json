@@ -1,0 +1,16 @@
+{
+  "name": "prime_resume",
+  "version": "1.0.0",
+  "description": "\"Resume for Prime Digital Academy student Kaitlin Muth\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Kaitlin Muth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "path": "^0.11.14"
+  }
+}
