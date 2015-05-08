@@ -26,20 +26,20 @@ body {
 	padding-right: 10px;
 }
 
-.Purpose {
+.purpose {
 	padding-top: 30px;
 	font-family: 'Montserrat', sans-serif;
 	display: block;
 	overflow: auto;
 }
-.Purpose h1{
+.purpose h1{
 	font-size: 70px;
 }
-.Purpose p{
+.purpose p{
 	font-size: 20px;
 	width: auto;
 }
-.Purpose img {
+.purpose img {
 	display: block;
 	border-radius: 50%;
 	height: auto;

@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             },
             build: {
                 src: 'client/app.js',
-                dest: 'server/assets/scripts/app.min.js'
+                dest: 'server/public/assets/scripts/app.min.js'
             }
         },
         copy: {
@@ -23,21 +23,16 @@ module.exports = function(grunt) {
                     "jquery/dist/jquery.min.map",
                     "bootstrap/dist/js/bootstrap.min.js",
                     "bootstrap/dist/css/bootstrap.min.css",
-                    "bootstrap/dist/css/bootstrap.css.map"
-
+                    "bootstrap/dist/css/bootstrap.css.map",
+                    "font-awesome/css/font-awesome.min.css",
+                    "font-awesome/fonts/FontAwesome.otf",
+                    "font-awesome/fonts/fontawesome-webfont.eot",
+                    "font-awesome/fonts/fontawesome-webfont.svg",
+                    "font-awesome/fonts/fontawesome-webfont.ttf",
+                    "font-awesome/fonts/fontawesome-webfont.woff",
+                    "font-awesome/fonts/fontawesome-webfont.woff2"
                 ],
-                "dest": "server/assets/vendors/"
-            },
-            glyphicons: {
-                expand: true,
-                cwd: "node_modules/bootstrap/fonts/",
-                src: [
-                    "glyphicons-halflings-regular.eot",
-                    "glyphicons-halflings-regular.svg",
-                    "glyphicons-halflings-regular.woff",
-                    "glyphicons-halflings-regular.woff2"
-                ],
-                "dest": "server/assets/vendors/bootstrap/dist/fonts/"
+                "dest": "server/public/assets/vendors/"
             },
             css: {
                 expand: true,
@@ -45,7 +40,7 @@ module.exports = function(grunt) {
                 src: [
                     "stylesheet.css"
                 ],
-                "dest": "server/assets/styles"
+                "dest": "server/public/assets/styles"
 
             }
         }
