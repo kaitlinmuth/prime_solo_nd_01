@@ -33,6 +33,7 @@ $(document).ready(function(){
         });
     $.get('/assets/data/data.json', function(data) {
         experienceData = data;
+        writeJobData(experienceData.experience[0]);
     });
 
     drawIcons();
