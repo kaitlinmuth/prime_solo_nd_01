@@ -28,29 +28,17 @@ function writeJobData(data){
 }
 
 $(document).ready(function(){
+    $.get('/views/template.html', function(data){
+        experienceHTML = data;
+        });
+    $.get('/assets/data/data.json', function(data) {
+        experienceData = data;
+    });
 
     drawIcons();
 
     $(".iconPicker").on('click', '.jobIcon', function(){
         var index = $(this).data("index");
-        console.log("index is",index);
-        console.log("clicked!");
-        if (experienceHTML == undefined){
-            $.get('/views/template.html', function(data){
-                experienceHTML = data;
-                console.log("HTML is ",experienceHTML);
-            });
-        }
-        console.log("second request");
-        console.log("experience data is",experienceData);
-        if (experienceData == undefined){
-            console.log("getting data");
-            $.get('/assets/data/data.json', function(data){
-                experienceData = data;
-                console.log("Data is", experienceData);
-                });
-        }
-        console.log("write data!");
         writeJobData(experienceData.experience[index]);
     });
 
