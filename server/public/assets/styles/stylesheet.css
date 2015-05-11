@@ -1,5 +1,5 @@
 body {
-	font-family: "Trebuchet MS", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 h1, h2, h3 {
@@ -17,8 +17,11 @@ h1, h2, h3 {
 	font-family: "Pacifico", sans-serif;
 }
 
-.nav-tabs a{
+
+
+.nav-tabs li, .nav-tabs a{
 	color: #0a91d9;
+	font-size: 24px;
 }
 
 .tab-pane {
@@ -46,6 +49,7 @@ h1, h2, h3 {
 .jobIcon img{
 	max-width: 100%
 }
+
 .experience img{
 	display:block;
 	margin-left:auto;

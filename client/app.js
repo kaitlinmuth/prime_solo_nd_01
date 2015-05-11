@@ -2,10 +2,10 @@
  * Created by kaitlinmuth on 5/7/15.
  */
 var experienceHTML;
-var educationHTML
+var educationHTML;
 var resumeData;
 
-function drawIcons (){
+function drawIcons(){
     $.get('/assets/data/data.json', function(data){
         for (var i=0; i<data.experience.length; i++){
             if (i%2 == 0) {$(".iconPicker").append("<div class='row'></div>");}
@@ -18,7 +18,6 @@ function drawIcons (){
             $(".schoolIconPicker").children('.schoolIcon').last().data("index", [j]);
         }
     });
-
 }
 
 function writeJobData(data){
