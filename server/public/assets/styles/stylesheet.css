@@ -1,11 +1,8 @@
 body {
-	background-color: white;
 	font-family: "Trebuchet MS", sans-serif;
 }
 
 .header {
-	background-color: black;
-	color: white;
 	text-align: center;
 	padding: 25px 0px;
 }
@@ -14,14 +11,10 @@ body {
 	font-size: 70px;
 }
 
-.purpose {
-	display: block;
+.tab-pane {
+	padding: 2em;
 }
 
-.purpose p{
-	font-size: 20px;
-	width: auto;
-}
 .purpose img {
 	display: block;
 	border-radius: 50%;
@@ -58,10 +51,8 @@ body {
 .contact{
 	text-align: center;
 	padding: 25px 0px;
-	background-color: black;
-	color: white;
 }
 
 .contact a{
-	color: white;
+	color: black;
 }
