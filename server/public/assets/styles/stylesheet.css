@@ -1,14 +1,23 @@
 body {
 	background-color: white;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+.header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 25px 0px;
+}
+
+.header h1{
+	font-size: 70px;
 }
 
 .purpose {
-	font-family: 'Montserrat', sans-serif;
 	display: block;
 }
-.purpose h1{
-	font-size: 70px;
-}
+
 .purpose p{
 	font-size: 20px;
 	width: auto;
@@ -22,7 +31,6 @@ body {
 	margin-right: auto;
 }
 .heading-banner h2{
-	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
 	text-align: center;
 }

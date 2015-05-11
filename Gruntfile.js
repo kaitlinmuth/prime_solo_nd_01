@@ -24,6 +24,7 @@ module.exports = function(grunt) {
                     "bootstrap/dist/js/bootstrap.min.js",
                     "bootstrap/dist/css/bootstrap.min.css",
                     "bootstrap/dist/css/bootstrap.css.map",
+                    "bootstrap/js/tab.js",
                     "font-awesome/css/font-awesome.min.css",
                     "font-awesome/fonts/FontAwesome.otf",
                     "font-awesome/fonts/fontawesome-webfont.eot",
