@@ -2,7 +2,12 @@ body {
 	font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3 {
+h1 {
+color: #293d78;
+text-align: center;
+}
+
+h2, h3 {
 	color: #0a91d9;
 	text-align: center;
 }
@@ -16,8 +21,6 @@ h1, h2, h3 {
 	font-size: 70px;
 	font-family: "Pacifico", sans-serif;
 }
-
-
 
 .nav-tabs li, .nav-tabs a{
 	color: #0a91d9;
@@ -46,34 +49,31 @@ h1, h2, h3 {
 	font-size: 50px;
 	text-align: center;
 }
-.jobIcon img{
-	max-width: 100%
+.jobIcon img, .schoolIcon img{
+	max-height: 100px;
+	cursor: pointer;
 }
 
-.experience img{
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	padding-top:20px;
-	max-height: 100px;
-	height:auto;
-	width:auto;
+.job-icon, .school-icon {
+	max-height: 150px;
 }
-.education img{
+
+.experience img, .education img{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	max-height: 100px;
-	height:auto;
-	width:auto;
 	margin-top:20px;
+	max-width: 100%;
+	height:auto;
+	width:auto;
 }
+
 .contact{
 	text-align: center;
-	padding: 25px 0px;
+	padding: 20px 0px;
 }
 
 .contact a{
-	color: #0a91d9;
+	color: #293d78;
 };
 }
