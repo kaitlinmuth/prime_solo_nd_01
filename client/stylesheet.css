@@ -40,11 +40,10 @@ h2, h3 {
 	margin-right: auto;
 }
 
-.purpose li {
-	float: left;
-	display: inline;
-	width: 33%;
+.purpose h4 {
+	text-align: center;
 }
+
 .heading-banner h2{
 	font-size: 50px;
 	text-align: center;

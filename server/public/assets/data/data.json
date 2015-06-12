@@ -3,31 +3,31 @@
     {"title" : "Assistant Project Manager/Estimator",
       "company": "Snap Construction",
       "dates": "2014",
-      "description" : "<li>Championed technology in traditionally tech-poor industry by designing approachable workflows and user-friendly Excel spreadsheets to automate common estimating tasks.</li><li>Quickly mastered industry concepts and served as interpreter between highly knowledgable senior estimators and customer base.</li><li>Assisted in sales and management of over $0.5M worth of construction projects in a single season.</li>",
+      "description" : "<li>Championed technology in traditionally tech-poor industry by designing approachable workflows and creating pre-programmed spreadsheets to automate common estimating tasks.</li><li>Quickly mastered industry concepts and served as interpreter between highly knowledgable senior estimators and customer base.</li><li>Assisted in sales and management of over $500K worth of construction projects in a single season.</li>",
       "image" : "snap.jpg"},
 
     {"title" : "Project Coordinator",
       "company": "Best Buy (Valere Consulting)",
       "dates": "2014",
-      "description" : "<li>Coordinated and executed website creative content updates to meet business and creative objectives.</li><li>Faciliated and assisted with technical troubleshooting, including editing of live CSS and HTML.</li><li>Collaborated with cross-functional partners to create content schedule and manage timelines for creative work.</li>",
+      "description" : "<li>Managed and executed web content updates to achieve business objectives.</li><li>Facilitated technical troubleshooting, including pushing updates to production CSS and HTML.</li><li>Collaborated with cross-functional partners to create content schedule and manage timelines for creative assets.</li>",
       "image" : "bestbuy.png"},
 
     {"title" : "Project Coordinator",
       "company": "Open Systems International",
       "dates": "2012-2014",
-      "description" : "<li>Member of 5-person management team responsible for communication, resource and work planning for department of 60 software developers.</li><li>Owned all major Software Development communication, from status reports to company-wide memos to customer-facing collateral.</li><li>Created and managed customer release note process; collaborated with developers and other subject matter experts to write and revise customer-friendly release notes for all changes in subsequent software releases.</li><li>Managed regular release and testing of over 100 interdependent software products.</li>",
+      "description" : "<li>Managed regular release and testing of over 100 interdependent software products, utilizing issue tracking tools including DevTrack, Trello and Jira.</li><li>Member of 5-person management team responsible for communication, resourcing and project management for department of 60 software developers.</li><li>Owned all major Software Development communication, from status reports to company-wide memos and customer-facing collateral.</li><li>Created and managed customer release note process; collaborated with developers and other subject matter experts to write and revise customer-readable release notes for all changes in subsequent software releases.</li><li>Executed trainings, represented OSI at career fairs, conducted interviews and managed onboarding of new hires.</li>",
       "image" : "osi.jpg"},
 
     {"title" : "Marketing Intern",
       "company": "UnitedHealthcare",
       "dates": "2012",
-      "description": "<li>Wrote, edited and proofed consumer material during full-time internship.</li><li>Created print and web collateral for wide distribution, including social media content, custom content for 275,000-member account, and corporate intranet posts.</li><li>Managed a $1.5M budget for Open Enrollment print materials.</li><li>Honed project management skills through collaboration with vendors and national internal marketing team.</li>",
+      "description": "<li>Created print and web collateral for wide distribution, including social media content, custom content for 275,000-member account, and corporate intranet posts.</li><li>Managed a $1.5M budget for Open Enrollment print materials.</li><li>Honed project management skills through collaboration with vendors and geographically diverse internal marketing team.</li>",
       "image" : "uhc.png"},
 
     {"title" : "Instructor",
       "company": "internalDrive Technology Camps",
       "dates": "2009-2011",
-      "description" : "<li>Made advanced technology concepts accessible to students aged 7-17 in various courses on computer programming and video game design.</li><li>Quickly mastered new software and curricula well enough to educate students and fellow staff.</li><li>Monitored students’ progress toward completing individual week-long projects.</li>",
+      "description" : "<li>Taught advanced technology concepts at age- and skill-appropriate level to students aged 7-17 in various courses on computer programming and video game design. Courses included Adventures in Programming, Adventures in Robotics, Game Creation- Arcade & Platform, and 3D Game Design: Roleplaying Games.</li><li>Quickly mastered new software and curricula and helped students to troubleshoot projects.</li><li>Monitored students’ progress toward completing individual week-long projects.</li>",
       "image" : "id.png"},
 
     {"title" : "Editorial Intern",
@@ -38,21 +38,22 @@
   ],
   "education" : [
     {"name": "Prime Digital Academy",
-    "degree": "Certificate of Software Engineering",
-    "date": "July 2015",
-    "image" : "prime.png"},
+      "degree": "Certificate of Software Engineering",
+      "date": "July 2015",
+      "description" : "Created full-stack applications that dynamically respond to real world business problems utilizing MEAN stack technologies (including MongoDB, Express, AngularJS and NodeJS). Strengthened independent technical research skills and studied best practices in areas including object-oriented programming, test driven development, and version control. Practiced pair programming, group coding, peer mentoring and code review. Engaged with a variety of industry professionals to better understand the typical software development lifecycle.",
+      "image" : "prime.png"},
 
     {"name": "Carleton College",
     "degree": "B.A., American Studies",
     "date": "2012",
     "honors": "Magna cum Laude, Dean's List 2010-2011, Exemplary Writing Portfolio",
-    "description": "Relevant coursework includes Intro to Computer Science, Data Structures, and Graphic Design.",
+    "description": "Relevant coursework includes Intro to Computer Science (Python), Data Structures (Java), and Graphic Design.",
     "image": "carleton.png"},
 
     {"name": "Scripps College",
     "degree": "Undeclared",
     "date": "2008-2009",
-    "honors": "Dean's List 2008-2009",
+    "honors": "New Generation Scholar, Dean's List 2008-2009",
     "image": "scripps.png"}
   ]
 }
